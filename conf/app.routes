@@ -1,3 +1,4 @@
 # microservice specific routes
 
-GET        /hello-world             uk.gov.hmrc.FHDDS.controllers.HelloWorld.helloWorld
+GET        /login            uk.gov.hmrc.FHDDS.controllers.LoginController.loginPage(continueUrl: String)
+POST       /check            uk.gov.hmrc.FHDDS.controllers.LoginController.check(continueUrl: String)
