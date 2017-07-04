@@ -7,7 +7,7 @@ import play.api.i18n.Messages.Implicits._
 import play.api.mvc._
 import uk.gov.hmrc.FHDDS.models.{Forms, User}
 import uk.gov.hmrc.play.frontend.controller.FrontendController
-import uk.gov.hmrc.FHDDS.views.html.login_page.login
+import uk.gov.hmrc.FHDDS.views.html.login_page_views.login
 
 import scala.concurrent.Future
 

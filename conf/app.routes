@@ -1,4 +1,10 @@
 # microservice specific routes
 
-GET        /login            uk.gov.hmrc.FHDDS.controllers.LoginController.loginPage(continueUrl: String)
-POST       /check            uk.gov.hmrc.FHDDS.controllers.LoginController.check(continueUrl: String)
+GET        /login              uk.gov.hmrc.FHDDS.controllers.LoginController.loginPage(continueUrl: String)
+POST       /check              uk.gov.hmrc.FHDDS.controllers.LoginController.check(continueUrl: String)
+
+
+GET        /sole-trader-inf    @uk.gov.hmrc.FHDDS.controllers.SoleTraderController.information
+POST       /sole-trader-inf    @uk.gov.hmrc.FHDDS.controllers.SoleTraderController.submitCheckResult
+
+#GET        /sole-summary       @uk.gov.hmrc.FHDDS.controllers.SoleTraderController.summary
